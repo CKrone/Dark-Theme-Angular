@@ -1,0 +1,10 @@
+.jumbotron {
+    width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.selecionado {
+    background-color: rgb(227, 252, 4);
+}
