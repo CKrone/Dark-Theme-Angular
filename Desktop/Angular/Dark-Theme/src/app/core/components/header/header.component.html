@@ -1,0 +1,10 @@
+<header>
+  <img src="./assets/angular.svg" alt="Logo Angular" />
+  <ul>
+    <li><a [routerLink]="['']">Home</a></li>
+    <li><a [routerLink]="['sobre']">Sobre</a></li>
+    <li><Button (click)="toggle()">
+        <img src="./assets/{{ icon }}.svg" alt="Clique para alterar para {{ textTheme }}">
+    </Button></li>
+  </ul>
+</header>
